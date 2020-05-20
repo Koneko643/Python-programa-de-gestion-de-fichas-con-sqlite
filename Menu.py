@@ -15,6 +15,7 @@ def spdel(subject):
 class Menu():
     def __init__(self):
         self.__menu=Tk()
+        self.__menu.resizable(False,False)
 
         #Inicializacion de los widgets
 
