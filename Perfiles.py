@@ -7,6 +7,7 @@ import tkinter
 class Ficha():
     def __init__(self,info):
         self.__perfil= Toplevel()
+        self.__perfil.resizable(False,False)
 
         #Se guarda la informacion del perfil en un atributo privado
         self.__informacion=info
